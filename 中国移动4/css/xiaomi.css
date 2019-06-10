@@ -1,0 +1,1009 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    width: 1345px;
+    height: 4000px;
+    border: 1px solid red;
+
+}
+
+.topbar {
+    width: 100%;
+    height: 40px;
+    border: 1px solid green;
+    font-size: 12px;
+    background: #333;
+
+
+}
+
+.top_1,
+.top_2,
+.top_3 {
+    float: left;
+    line-height: 40px;
+
+}
+
+.top_1 {
+    width: 680px;
+    height: 40px;
+
+    margin-left: 60px;
+    margin-right: 277px;
+}
+
+.top_2 {
+    width: 130px;
+    height: 40px;
+
+    margin-right: 25px;
+
+}
+
+.top_3 {
+    width: 100px;
+    height: 40px;
+    background: rgb(66, 66, 66);
+
+
+}
+
+.top_1 a {
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+
+.top_2 a {
+    margin-right: 8px;
+
+}
+
+.top_3 a {}
+
+.top_1 a,
+.top_2 a,
+.top_3 a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+i {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #b0b0b0;
+
+}
+
+.top_1 a:hover,
+.top_2 a:hover {
+    color: #fff;
+}
+
+
+.head_nav {
+    width: 100%;
+    height: 100px;
+    position: relative;
+
+
+}
+
+.logo,
+.caidan,
+.search {
+    float: left;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 60px;
+}
+
+.caidan {
+    width: 600px;
+    height: 100px;
+    margin-left: 125px;
+
+}
+
+.search {
+    width: 300px;
+    height: 100px;
+    margin-left: 81px;
+}
+
+.logo img {
+    width: 56px;
+    height: 56px;
+
+    padding-top: 20px;
+}
+
+.clearfix {
+    list-style: none;
+
+}
+
+.items {
+    float: left;
+    margin-right: 18px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.items:hover {
+    color: red;
+}
+
+.search {
+    position: relative;
+}
+
+input {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: block;
+    width: 222px;
+    height: 46px;
+    padding: 0px 0px 0px 5px;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    width: 100%;
+    height: 470px;
+
+
+    position: relative;
+
+}
+
+.bannerbox {
+    width: 1205px;
+    height: 470px;
+
+    margin-left: 60px;
+    overflow: hidden;
+
+
+
+}
+
+.bannerbox .banner_ul {
+    width: 7230px;
+    height: 470px;
+    list-style: none;
+    animation: myani 18s 0s alternate ease-in-out infinite;
+    -ms-animation: myani 15s 0s alternate ease-in-out infinite;
+    -moz-animation: myani 15s 0s alternate ease-in-out infinite;
+    -webkit-animation: myani 15s 0s alternate ease-in-out infinite;
+
+
+}
+
+.bannerbox .banner_ul .banner_li {
+    width: 1205px;
+    height: 470px;
+    float: left;
+
+}
+
+.banner_ul img {
+    width: 1205px;
+    height: 470px;
+}
+
+.banner_ul:hover {
+
+    animation-play-state: paused;
+}
+
+@keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: -1205px;
+    }
+
+    40% {
+        margin-left: -2410px;
+    }
+
+    60% {
+        margin-left: -3615px;
+    }
+
+    80% {
+        margin-left: -4820px;
+    }
+
+    100% {
+        margin-left: -6025px;
+    }
+}
+
+/*对动画的关键帧进行兼容处理*/
+@-webkit-keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: -1205px;
+    }
+
+    40% {
+        margin-left: -2410px;
+    }
+
+    60% {
+        margin-left: -3615px;
+    }
+
+    80% {
+        margin-left: -4820px;
+    }
+
+    100% {
+        margin-left: -6025px;
+    }
+}
+
+@-moz-keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: -1205px;
+    }
+
+    40% {
+        margin-left: -2410px;
+    }
+
+    60% {
+        margin-left: -3615px;
+    }
+
+    80% {
+        margin-left: -4820px;
+    }
+
+    100% {
+        margin-left: -6025px;
+    }
+}
+
+@-ms-keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: -1205px;
+    }
+
+    40% {
+        margin-left: -2410px;
+    }
+
+    60% {
+        margin-left: -3615px;
+    }
+
+    80% {
+        margin-left: -4820px;
+    }
+
+    100% {
+        margin-left: -6025px;
+    }
+}
+
+.prebefore,
+.prenext {
+    display: block； z-index: 200;
+    position: absolute;
+
+}
+
+.prebefore {
+    width: 50px;
+    height: 90px;
+    top: 185px;
+    left: 297px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 50px;
+    color: #757575;
+}
+
+.prenext {
+    width: 50px;
+    height: 90px;
+    top: 185px;
+    right: 78px;
+    line-height: 90px;
+    font-size: 50px;
+    color: #333;
+
+    color: #757575;
+
+}
+
+.prebefore:hover,
+.prenext:hover {
+    background: rgb(117, 117, 117);
+    color: #fff;
+}
+
+.cebianlan {
+    width: 1205px;
+    height: 470px;
+
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 30;
+}
+
+.cebianlan_left,
+.cebianlan_right {
+    float: left;
+
+}
+
+.cebianlan_left {
+    width: 234px;
+    height: 470px;
+    margin-right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.cebianlan_right {
+    width: 956px;
+    height: 470px;
+
+
+}
+
+.cebianlan .clearfix_2 .items_2 {
+    width: 200px;
+    height: 42px;
+
+    list-style: none;
+    padding-left: 34px;
+    line-height: 41px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+
+
+}
+
+.cebianlan .clearfix_2 {
+
+    padding-top: 20px;
+
+}
+
+.items_2:hover {
+
+    background: rgb(255, 103, 0);
+}
+
+.cebianlan_right .cebianlan_ul .items_3 {
+
+    width: 239px;
+    height: 78px;
+    float: left;
+    line-height: 69px;
+    background: rgb(255, 255, 255);
+
+
+
+}
+
+.cebianlan_right .cebianlan_ul {
+
+    list-style: none;
+    background: red;
+
+}
+
+.cebianlan_right .cebianlan_ul .items_3 img {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    display: inline-block;
+
+}
+
+.cebianlan_right .cebianlan_ul .items_3 span {
+
+    display: inline-block;
+    font-size: 14px;
+    width: 180px;
+    height: 69px;
+    margin-top: 6px;
+    margin-left: 20px;
+    position: absolute;
+
+}
+
+.cebianlan_right {
+    display: none;
+}
+
+.four_brand {
+    width: 1207px;
+    height: 170px;
+
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.xuangou_brand,
+.shouji_brand {
+
+
+    float: left;
+}
+
+.xuangou_brand {
+    width: 235px;
+    height: 170px;
+    background: rgba(95, 87, 80);
+
+
+
+}
+
+.shouji_brand {
+    width: 318px;
+    height: 170px;
+    margin-left: 6px;
+}
+
+.shouji_brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.xuangou_brand ul li {
+    width: 77px;
+    height: 84px;
+
+    float: left;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+
+}
+
+.xuangou_brand ul {
+    list-style: none;
+
+}
+
+.xuangou_brand ul li i {
+    display: block;
+    width: 35px;
+    height: 20px;
+    font-size: 28px;
+    margin: 15px auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.xuangou_brand ul li span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.xuangou_brand ul li i:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.xuangou_brand ul li span:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.Big_brand {
+    width: 1207px;
+    height: 127px;
+
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.Big_brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.zhuanqu_shoujiqu {
+    width: 1345px;
+    height: 700px;
+    background: rgb(245, 245, 245);
+    margin-top: 40px;
+}
+
+.zhuanqu_shoujiqu .top_title {
+    width: 1205px;
+    height: 50px;
+
+    margin-left: 60px;
+
+}
+
+.zhuanqu_shoujiqu .top_title .top_title_left {
+    width: 200px;
+    height: 50px;
+
+    float: left;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: normal;
+
+}
+
+.zhuanqu_shoujiqu .top_title .top_title_right {
+    float: right;
+    width: 100px;
+    height: 50px;
+
+    line-height: 50px;
+    position: relative;
+}
+
+.zhuanqu_shoujiqu .top_title .top_title_right img {
+    width: 11px;
+    height: 11px;
+    padding: 5px;
+    background: rgb(176, 176, 176);
+    border-radius: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: 14px;
+    color: #fff;
+}
+
+.zhuanqu_shoujiqu .top_title .top_title_right span {
+    padding-left: 10px;
+}
+
+.top_title_right:hover img {
+    background: rgb(255, 103, 0);
+}
+
+.top_title_right:hover span {
+    color: rgb(255, 103, 0);
+}
+
+.exposure_left,
+.exposure_right {
+    float: left;
+}
+
+.exposure_left {
+    width: 237px;
+    height: 614px;
+
+    margin-left: 60px;
+
+
+}
+
+.exposure_right {
+    width: 968px;
+    height: 614px;
+
+
+}
+
+.exposure_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.exposure_right .r1,
+.exposure_right .r2 {
+    float: left;
+    width: 230px;
+    height: 300px;
+
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.exposure_right .r1 {
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.exposure_right .r1 span {
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    background: green;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 81px;
+
+}
+
+.exposure_right .r1 img,
+.exposure_right .r2 img {
+    width: 160px;
+    height: 160px;
+    margin-top: 25px;
+
+}
+
+.exposure_right .r1 h4,
+.exposure_right .r2 h4 {
+    font-weight: normal;
+    margin-bottom: 8px;
+    font-size: 16px;
+
+}
+
+.exposure_right .r1 h5,
+.exposure_right .r2 h5 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.exposure_right .r1 h6,
+.exposure_right .r2 h6 {
+    font-weight: normal;
+    font-size: 14px;
+    color: red;
+
+}
+
+.exposure_right .r2 {
+    text-align: center;
+    position: relative;
+}
+
+.exposure_right .r2 span {
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    background: red;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 81px;
+
+}
+
+.zhuanqu_logo {
+    width: 1203px;
+    height: 120px;
+    background: red;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.zhuanqu_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.zhuanqu_jiadianqu {
+    width: 1345px;
+    height: 700px;
+    background: rgb(245, 245, 245);
+    margin-top: 40px;
+
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title {
+    width: 1205px;
+    height: 50px;
+
+    margin-left: 60px;
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title_left {
+    width: 200px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title_right {
+    float: right;
+    width: 200px;
+    height: 50px;
+
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title_right ul li {
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title_right ul {
+    list-style: none;
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title_right ul li a {
+    text-decoration: none;
+    color: #444;
+}
+
+.zhuanqu_jiadianqu .zhuanqu_title_right ul li a:hover {
+    border-bottom: 2px solid red;
+    color: red;
+
+}
+
+.exposure_left_jiadian,
+.exposure_right_jiadian {
+    float: left;
+}
+
+.exposure_left_jiadian {
+    width: 237px;
+    height: 614px;
+    background: yellow;
+    margin-left: 60px;
+
+}
+
+.exposure_right_jiadian {
+    width: 968px;
+    height: 614px;
+
+
+}
+
+.exposure_left_jiadian img {
+    width: 237px;
+    height: 305px;
+
+}
+
+.exposure_right_jiadian .r1_jiadian,
+.exposure_right_jiadian .r2_jiadian {
+    float: left;
+    width: 232px;
+    height: 302px;
+
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.exposure_right_jiadian .r1_jiadian,
+.exposure_right_jiadian .r2_jiadian {
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.exposure_right_jiadian .r1_jiadian span,
+.exposure_right_jiadian .r2_jiadian span {
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    background: green;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 81px;
+}
+
+.exposure_right_jiadian .r1_jiadian img,
+.exposure_right_jiadian .r2_jiadian img {
+    width: 160px;
+    height: 160px;
+    margin-top: 35px;
+}
+
+.exposure_right_jiadian .r1_jiadian h4,
+.exposure_right_jiadian .r2_jiadian h4 {
+    font-weight: normal;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+
+.exposure_right_jiadian .r1_jiadian h6,
+.exposure_right_jiadian .r2_jiadian h6 {
+    font-weight: normal;
+    font-size: 14px;
+    color: red;
+}
+
+.fenqu_top,
+.fenqu_under {
+    width: 232px;
+    height: 146px;
+    background: white;
+    position: relative;
+}
+
+.fenqu_top {
+    margin-bottom: 10px;
+}
+
+.fenqu_top p,
+.fenqu_under p {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.fenqu_top a,
+.fenqu_under a {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: red;
+    font-size: 13px;
+}
+
+.r2_jiadian .fenqu_top img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 15px;
+    bottom: 37px;
+}
+
+.r2_jiadian .fenqu_under img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 15px;
+    bottom: 37px;
+}
+
+.remen {
+    display: block;
+}
+
+.dianshiyingyin {
+    display: none;
+}
+
+.gudingdaohanglan {
+    width: 50px;
+    height: 220px;
+
+    position: absolute;
+    right: 30px;
+    bottom: 108px;
+}
+
+.gudingdaohanglan ul {
+    list-style: none;
+}
+
+.gudingdaohanglan .guding_item img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.gudingdaohanglan .guding_item .hover_img {
+    display: none;
+}
+
+.gudingbox {
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+    line-height: 20px;
+    vertical-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.gudingbox:hover .hover_img {
+    display: block;
+}
+
+.gudingbox:hover .origin_img {
+    display: none;
+}
+
+.xinzeng {
+    border-top: 1px solid gray;
+    position: absolute;
+    top: 100px;
+    background: white;
+    width: 1345px;
+    height: 230px;
+    z-index: 1000;
+
+}
+
+.xinzeng ul li {
+    float: left;
+    width: 149px;
+    height: 230px;
+
+    margin-left: 60px;
+    text-align: center;
+}
+
+.xinzeng ul li img {
+    width: 160px;
+    height: 110px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}
+
+.xinzeng ul li span {
+    font-size: 14px;
+
+}
+
+.xinzeng ul li h6 {
+    font-size: 12px;
+    font-weight: normal;
+    color: red;
+
+}
+
+.xinzeng ul {
+    list-style: none;
+}
+
+
+
+.xinzeng .xiaomishoujii {
+    display: none;
+}
+
+.xinzeng .Redmihongmii {
+    display: none;
+}
+
+.xinzeng .danshi {
+    display: none;
+}

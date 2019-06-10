@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>banner</title>
+    <style type="text/css">
+    .container {
+        width: 700px;
+        height: 300px;
+        border: 1px solid red;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .photos {
+        width: 2100px;
+        height: 300px;
+        animation: switch 6s ease-out infinite;
+
+
+    }
+
+    .photos img {
+        width: 700px;
+        height: 300px;
+        float: left;
+    }
+
+    @keyframes switch {
+
+        0%,
+        25% {
+            margin-left: 0;
+        }
+
+        50%,
+        75% {
+            margin-left: -700px;
+        }
+
+        75%,
+        100% {
+            margin-left: -1400px;
+        }
+
+
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="photos">
+            <img src="https://img1.shop.10086.cn/file/t6cpekkqngfygqb4.png">
+            <img src="https://img1.shop.10086.cn/file/taybtyjq2aattnjhu.png">
+            <img src="https://img1.shop.10086.cn/file/t6prv8c99zaz4dv9.png">
+        </div>
+    </div>
+</body>
+
+</html>

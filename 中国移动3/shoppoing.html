@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>360购物</title>
+  <style type="text/css">
+  *{
+    margin:0px;
+    padding: 0px;
+  }
+    .box{
+      width: 1330px;
+      height: 600px;
+      
+      
+    }
+    .Title-bannerBox{
+      text-align: center;
+      background: rgb(101,81,207);
+            
+    }
+    .search-blockBox{
+      height: 64px;
+      
+      margin-top: 20px;
+      text-align: center;
+    }
+    .graphic-360,.search,.graphic-shirt{
+      
+      
+      float: left;
+    }
+    .graphic-360{
+      width: 185px;
+      height: 35px;
+            margin-left: 74px;
+            border-radius: 10px;
+           
+    }
+    .search{
+      width: 540px;
+      height: 64px;
+      margin-left: 164px;
+      margin-right: 70px;
+      
+
+    }
+    .graphic-shirt{
+      width: 202px;
+      height: 64px;
+      border-radius: 12px;
+      margin-left: 1069px;
+      margin-top: -66px;
+      
+    }
+    
+    .search-kuang{
+      width: 540px;
+      height: 40px;
+      border: 2px solid #fc5755;
+      
+      background-color:#fc5755;
+    }
+    .search-input{
+      width: 450px;
+      height: 39px;
+      margin-left:0px;
+      
+      border:none;
+
+    }
+    .baidu{
+      display: inline-block;
+      width:85px;
+      height: 40px;
+      float: right;
+      line-height: 40px;
+      margin-right: 4px;
+      background-color:#fc5755;
+      color: #fff;
+      outline:none;
+
+    }
+    .i1,.i2,.i3,.i4{
+      margin-right: 13px;
+      font-size: 12px;
+      color: #707070;
+      text-decoration: none;
+      
+    }
+    .i1{
+      color: green;
+    }
+    .i3{
+      color: red;
+    }
+    .Business-catalogeBox{
+      height: 33px;
+      
+      border-bottom: 2px solid #fc5755;
+    }
+    .search-blockBox：：after{
+      content: "";
+      clear: both;
+      display: block;
+    }
+    .B1{
+      font-size: 16px;
+      display: inline-block;
+      margin-left: 74px;
+      margin-right: 70px;
+      width:185px;
+      height: 35px;
+      line-height: 35px;
+      background-color:#fc5755;
+      color: #fff;
+      text-align: center;
+    }
+    .c1{
+      font-color:16px;
+            margin-right: 45px;
+            text-decoration: none;
+            color:#444;
+    }
+    
+
+    .MainBox{
+      height: 332px;
+      
+      background: rgb(245,245,245);
+    }
+    .main1,.main2,.main3,.main4{
+      height: 300px;
+      width: 300px;
+      float: left;
+      
+    }
+    .main1{
+      width: 182px;
+      height: 330px;
+      margin-right: 10px;
+      margin-left: 74px;
+    }
+    .main2{
+      width: 320px;
+      height:319px;
+      margin-right:7px;
+      margin-top: 12px;
+      overflow: hidden;
+    }
+    .main3{
+      width: 410px;
+      height: 319px;
+      margin-right: 7px;
+      margin-top: 12px;
+      text-align: center;
+    
+    }
+    .main4{
+      width: 285px;
+      height:319px;
+      margin-top: 12px;
+      text-align: center;
+      background: rgb(255,255,255);
+
+    }
+    .L1{
+      
+      width: 185px;
+      height: 30px;
+      background:black;
+
+    }
+    .L1 a{
+      font-size: 13px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .U1{
+      list-style: none;
+    }
+    .L1 a:hover{
+      color: red;
+    }
+    .L1:hover{
+      background: rgb(70,70,70);
+    }
+    
+
+        .photos{
+          width: 1700px;
+          animation: switch 5s ease-out infinite;
+
+        }
+        .photos img{
+                           float: left;
+                           width: 320px;
+                           height: 319px;
+}
+
+@keyframes switch {
+  0%, 25% {
+    margin-left: 0;
+  }
+  35%, 60% {
+    margin-left: -320px;
+  }
+  70%, 100% {
+    margin-left: -640px;
+  }
+}
+
+   .main3-topleft,.main3-topright{
+                   
+                    width: 200px;
+                    height: 200px;
+                    
+                    float:  left;
+                    
+   }
+   .main3-topleft{
+                   margin-right:6px;
+
+   }
+    .main3-topleft img,.main3-topright img{
+                  width: 100%;
+                    height: 100%;
+      
+    }
+    .item1,.item2,.item3{
+
+      width: 134px;
+      height: 116px;
+      margin-top: 3px;
+      float: left;
+      background: url(http://p6.qhimg.com/t0136e1028ea9fc0244.png) repeat;
+      
+
+    }
+    .item1,.item2{
+      margin-right: 2px;
+    }
+    .main3-title{
+      list-style: none;
+
+    }
+    .item1{
+      background-color: rgb(0, 189, 107);
+    }
+    .item2{
+      background-color: rgb(152, 162, 206);
+    }
+    .item3{
+      background-color: rgb(242, 164, 135);
+    }
+    .item1 h4,.item2 h4,.item3 h4{
+              margin-top: 30px;
+              margin-bottom: 10px;
+              color: #fff;
+              font-weight: normal;
+              font-size:18px;
+
+    }
+    .item1 span,.item2 span,.item3 span{
+      color: #fff;
+      }
+      .main4 img{
+            margin-top: 8px;
+      }
+      .main4 img:hover{
+        border:2px solid red;
+      }
+      .icon1,.icon2,.icon3,.icon4,
+      .icon5,.icon6,.icon7,.icon8{
+        width: 138px;
+        height: 45px;
+        
+        float: left;
+        margin-bottom: 1px;
+        cursor: pointer;
+
+      }
+      .icon1,.icon3,.icon5,.icon7{
+        margin-left: 2px;
+        margin-right: 2px; 
+      }
+      .icon1,.icon2{
+        margin-top: 10px;
+      }
+      .icons{
+        list-style: none;
+      }
+      .icon1 img,.icon2 img,.icon3 img,.icon4 img,.icon5 img,.icon6 img,.icon7 img,.icon8 img{
+        position: absolute;
+        margin-left: 15px;
+        height: 22px;
+        line-height:22px; 
+        margin-top: 10px;
+
+      }
+      .icon1 span,.icon2 span,.icon3 span,.icon4 span,.icon5 span,.icon6 span,.icon7 span,.icon8 span{
+        margin-top: 15px;
+        height: 10px;
+        width: 100px;
+        line-height: 10px;
+        margin-left: 35px;
+        display: inline-block;
+      }
+      .icon1 img:hover,.icon2 img:hover,.icon3 img:hover,.icon4 img:hover,
+      .icon5 img:hover,.icon6 img:hover,.icon7 img:hover,.icon8 img:hover{
+        border:none;
+      }
+      .icon1 span:hover,.icon2 span:hover,.icon3 span:hover,.icon4 span:hover,
+      .icon5 span:hover,.icon6 span:hover,.icon7 span:hover,.icon8 span:hover{
+        color: red;
+      }
+      .bottomBox{
+        
+        height: 80px;
+      }
+      .brand{
+        
+        height :80px;
+        float: left;
+        margin-right:5px;
+        overflow: hidden;
+
+      }
+      .bottom-brand{
+        margin-left:70px;
+        list-style: none;
+      }
+      .p1{
+            font-size: 12px;
+            color: #666;
+            line-height: 12px;
+            opacity:0;
+            transition: all .3s;
+      }
+      .bottoma{
+        width: 133px;
+        display:block;
+        transition: all .3s;
+        text-align: center;
+        
+      }
+      .brand img{
+                  display: block;
+                  width:107px;
+                  height: 53px;
+                  margin: 13px auto 14px auto;
+                  transition: all 0.3s;
+      }
+      .brand a:hover img{
+        margin-top: -2px;
+        transform: rotateX(20deg);
+      }
+      .brand a:hover .p1{
+             opacity: 1;
+             margin-top: -10px;
+      }
+    </style>
+</head>
+<body>
+  <div class="box">
+    <div class="Title-bannerBox">
+      <a><img src="images/1.png"></a>
+    </div>
+      
+    <div class="search-blockBox">
+      <div class="graphic-360">
+        <img src="images/2.png">  
+      </div>
+      <div class="search">
+       <div class="search-kuang">
+        <input  class="search-input" placeholder="百货" type="textbox" name="search"> 
+        <a href="#"><span class="baidu">搜索</span></a>
+       </div>
+           <a href="#" class="i1"><span>冲锋衣</span></a>|
+           <a href="#" class="i2"><span>连衣裙</span></a>|
+           <a href="#" class="i3"><span>绿茶</span></a>|
+           <a href="#" class="i4"><span>雪纺衫</span></a>|
+           <a href="#" class="i4"><span>高跟鞋</span></a>|
+           <a href="#" class="i4"><span>春外套</span></a>|
+           <a href="#" class="i4"><span>风衣</span></a>|
+           <a href="#" class="i4"><span>收纳箱</span></a>|
+           <a href="#" class="i4"><span>阔腿裤</span></a>|
+           <a href="#" class="i4"><span>卫衣</span></a>
+       </div>
+      <div class="graphic-shirt">
+        <img src="images/3.png">
+      </div>
+    </div>
+    <div class="Business-catalogeBox">
+      <span class="B1">商品分类</span>
+      <a href="#" class="c1" style="color: red;">首页</a>
+      <a href="#"  class="c1">女装</a>
+      <a href="#"  class="c1">男装</a>
+      <a href="#"  class="c1">百货</a>
+      <a href="#"  class="c1">女鞋</a>
+      <a href="#"  class="c1">男鞋</a>
+      <a href="#"  class="c1">内衣</a>
+      <a href="#"  class="c1">箱包</a>
+      <a href="#"  class="c1">运动</a>
+      <a href="#"  class="c1">白菜价</a>
+      <a href="#"  class="c1">优惠券</a>
+      
+    </div>
+    <div class="MainBox">
+      <div class="main1">
+        <ul class="U1">
+          <li class="L1">
+            <a href="#">女装/</a>&nbsp
+            <a href="#">男装/</a>&nbsp
+            <a href="#">内衣/</a>&nbsp
+            <a href="#">连衣裙</a>
+            <a href="#">></a></li>
+          <li class="L1">
+            <a href="#">女鞋/</a>&nbsp
+            <a href="#">男鞋/</a>&nbsp
+            <a href="#">箱包/</a>&nbsp
+            <a href="#">女包</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+          <li class="L1">
+            <a href="#">童装/</a>&nbsp
+            <a href="#">玩具/</a>&nbsp
+            <a href="#">早教/</a>&nbsp
+            <a href="#">孕产</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+          <li class="L1">
+            <a href="#">数码/</a>&nbsp
+            <a href="#">单反/</a>&nbsp
+            <a href="#">手机/</a>&nbsp
+            <a href="#">电脑</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+          <li class="L1">
+            <a href="#">美妆/</a>&nbsp
+            <a href="#">防晒/</a>&nbsp
+            <a href="#">洗护/</a>&nbsp
+            <a href="#">保健品</a>
+            <a href="#">></a></li>
+          
+          <li class="L1">
+            <a href="#">眼镜/</a>&nbsp
+            <a href="#">太阳镜/</a>&nbsp
+            <a href="#">配饰/</a>&nbsp
+            <a href="#">百货</a>
+            <a href="#">></a></li>
+          <li class="L1">
+            <a href="#">运动/</a>&nbsp
+            <a href="#">户外/</a>&nbsp
+            <a href="#">零食/</a>&nbsp
+            <a href="#">干果</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+          <li class="L1">
+            <a href="#">美食/</a>&nbsp
+            <a href="#">生鲜/</a>&nbsp
+            <a href="#">水果/</a>&nbsp
+            <a href="#">茶叶</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+          <li class="L1">
+            
+              <a href="#">家纺/</a>&nbsp
+            <a href="#">布料/</a>&nbsp
+            <a href="#">家具/</a>&nbsp
+            <a href="#">家饰</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+          <li class="L1">
+            
+              <a href="#">家电/</a>&nbsp
+            <a href="#">家装/</a>&nbsp
+            <a href="#">海淘/</a>&nbsp
+            <a href="#">办公</a>&nbsp&nbsp&nbsp
+            <a href="#">></a></li>
+            <li class="L1">
+              <a href="#">特价/</a>
+            <a href="#">海淘/</a>
+            <a href="#">领券区/</a>
+            <a href="#">连衣裙</a>&nbsp
+            <a href="#">></a></li>
+        </ul>
+      </div>
+      <div class="main2" >
+        <div class="photos">
+      <a href=''> <img src="images/4.jpg" ></img></a>
+      <a href=''> <img src="images/5.jpg" ></img></a>
+      <a href=''> <img src="images/6.jpg" ></img></a>
+      
+       </div>
+      </div>
+      <div class="main3">
+        <div class="main3-topleft">
+          <img src="images/7.jpg">
+          <span style="z-index: 10;"></span>
+        </div>
+        <div class="main3-topright">
+          <img src="images/8.jpg">
+        </div>
+        <ul class="main3-title">
+          <li class="item1"><h4>电脑大降价</h4><span>优惠不断</span></li>
+          <li class="item2"><h4>车载用品</h4> <span>天天惊喜价低价</span></li>
+          <li class="item3"><h4>体重秤清仓</h4><span>每日惊喜好货</span></li>
+         </ul>
+      </div>
+      <div class="main4">
+        <img alt="购物" src="http://p0.qhimg.com/t01656434b12f6f1bb9.png">
+        <ul class="icons">
+          <li class="icon1"><img src="images/icon1.png"><span>品质好茶</span></li>
+          <li class="icon2"><img src="images/icon2.png"><span>美食特价</span></li>
+          <li class="icon3"><img src="images/icon3.png"><span>女装1折</span></li>
+          <li class="icon4"><img src="images/icon4.png"><span>男装1折</span></li>
+          <li class="icon5"><img src="images/icon5.png"><span>韩范套装</span></li>
+          <li class="icon6"><img src="images/icon6.png"><span>品牌鞋靴</span></li>
+          <li class="icon7"><img src="images/icon7.png"><span>iphone手机</span></li>
+          <li class="icon8"><img src="images/icon8.png"><span>1元秒杀</span></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="bottomBox">
+      <ul class="bottom-brand">
+        <li class="brand"><a class="bottoma"><img src="images/4.png"><p class="p1"style="">天猫精选，购物狂欢</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/5.png"><p class="p1"style="">省钱*省事*省心</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/6.png"><p class="p1"style="">国美</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/7.png"><p class="p1"style="">韩都衣舍</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/8.png"><p class="p1"style="">品牌特卖</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/9.png"><p class="p1"style="">淘宝精品，导购平台</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/10.jpg"><p class="p1"style="">大牌鞋包，限时抢购</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/11.jpg"><p class="p1"style="">日本Amazon</p></a></li>
+        <li class="brand"><a class="bottoma"><img src="images/12.png"><p class="p1"style="">360扫地机器人</p></a></li>
+        
+
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
